@@ -1,26 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/style.css">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="row">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
             <div class="col-12">
-                header
+                <!-- debut header -->
+                <div class="row no-gutters header-container">
+                    <div class="col-12 navbar-container text-center">
+                        <nav class="navbar navbar-expand-md">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Dropdown</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-12 img-header-container text-center">
+                        <h1>MY <span class="d-none d-md-inline">WEBSITE</span> LOGO</h1>
+                    </div>
+                </div>
+                <!-- fin header -->
+            </div>
+            <div class="col-12 main-container">
+                <!-- debut main -->
+                <div class="row no-gutters">
+                    <div class="col-12 firstpart-container">
+                        <!-- debut 1er part -->
+                        <div class="row no-gutters rowPart m-auto">
+                            <div class="col-12 firstpart-title">
+                                <h2 class="text-center">ABOUT ME</h2>
+                                <p class="text-center">I love photography</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus reprehenderit,
+                                    libero laudantium magnam sapiente earum tempore, labore accusantium nihil enim quo.
+                                    Optio odio illo non modi ab molestias adipisci, accusantium architecto iure
+                                    doloremque odit veritatis fugiat vitae! Eum dignissimos ratione praesentium neque
+                                    suscipit odit unde corporis quam consequatur, veritatis perferendis.</p>
+                            </div>
+                            <div class="col-12 col-md-6 firstpart-img">
+                                <h3>icone + My Name</h3>
+                                <img src="img/avatar_hat.jpg" alt="...">
+                            </div>
+                            <div class="col-12 d-none d-md-inline col-md-6">
+                                <!-- disparait au tel et a voir pour effet text derriere img -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, modi
+                                    laudantium quisquam, vel, commodi incidunt recusandae qui voluptate aliquam impedit
+                                    delectus quasi exercitationem dolores ipsum nam blanditiis provident dignissimos sit
+                                    consectetur quia! Corporis porro, dignissimos, voluptates voluptas dolorum dicta
+                                    enim, officiis maxime animi quos hic atque recusandae assumenda eius! Fuga vero eius
+                                    velit, sapiente ab porro doloribus temporibus labore dolorem? Lorem ipsum dolor sit
+                                    amet consectetur, adipisicing elit. Quis aliquid, necessitatibus provident tempora
+                                    perferendis vero sunt deserunt dolore ab asperiores adipisci suscipit eligendi
+                                    placeat pariatur?</p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p>Im really good at:</p>
+                            </div>
+                            <div class="col-12 statsbar">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h6>icone + photogrpahy</h6>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-11 bg-dark">
+                                                <p class="text-center text-white">90%</p>
+                                            </div>
+                                            <div class="col-1 graypart">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <h6>icone + Web Design</h6>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-10 bg-dark">
+                                                <p class="text-center text-white">85%</p>
+                                            </div>
+                                            <div class="col-2 graypart">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <h6>icone + Photoshop</h6>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-9 bg-dark">
+                                                <p class="text-center text-white">75%</p>
+                                            </div>
+                                            <div class="col-3 graypart">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin 1er part -->
+                    </div>
+                    <div class="col-12">
+                        <div class="row no-gutters text-center statbar-row">
+                            <div class="col-12 col-md-3">
+                                <p>15+</p>
+                                <p>Partners</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p>55+</p>
+                                <p>Project Done</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p>89+</p>
+                                <p>Happy Clients</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p>150+</p>
+                                <p>Meetings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- debut 2em part -->
+                        <div class="row no-gutters">
+                            <div class="col-12 portfolio">
+                                <h2 class="text-center">PORTFOLIO</h2>
+                            </div>
+                            <div class="col-12">
+                                <!-- part my work -->
+                                <div class="row no-gutters">
+                                    <div class="col-12">
+                                        title + desc
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row no-gutters">
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                            <div class="col-12 col-md-3">img</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        btn
+                                    </div>
+                                </div>
+                                <!-- fin my work -->
+                            </div>
+                        </div>
+                        <!-- fin 2em part -->
+                    </div>
+                    <div class="col-12">
+                        <!-- debut 3em part -->
+                        <div class="row no-gutters">
+                            <div class="col-12">
+                                contact
+                            </div>
+                            <div class="col-12">
+                                <div class="row no-gutters">
+                                    <div class="col-12">
+                                        where work
+                                    </div>
+                                    <div class="col-12 col-md-5">
+                                        img
+                                    </div>
+                                    <div class="col-12 col-md-7">
+                                        info
+                                    </div>
+                                    <div class="col-0 col-md-5">
+                                        vide
+                                    </div>
+                                    <div class="col-12 col-md-7">
+                                        form
+                                    </div>
+                                    <div class="col-12">
+                                        btn droite
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin 3em part -->
+                    </div>
+                </div>
+                <!-- fin main -->
             </div>
             <div class="col-12">
-                main
-            </div>
-            <div class="col-12">
-                footer
+                <!-- debut footer -->
+                <div class="row no-gutters">
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                </div>
+                <!-- fin footer -->
             </div>
         </div>
     </div>
@@ -29,7 +243,10 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/jquery-parallax-scroll/js/jquery.parallax-scroll.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  </body>
+</body>
+
 </html>
