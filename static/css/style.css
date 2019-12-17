@@ -2,7 +2,7 @@
   height: 100vh;
   background-image: url(../../img/parallax1.jpg);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
   background-size: 100% auto;
   background-attachment: fixed; }
   .header-container h1 {
@@ -16,7 +16,7 @@
 .firstpart-container {
   padding: 3rem 0; }
   .firstpart-container .rowPart {
-    width: 70%; }
+    width: 50%; }
   .firstpart-container img {
     width: 90%; }
   .firstpart-container p {
@@ -31,14 +31,36 @@
   color: white;
   padding: 1rem 0; }
 
-.portfolio {
+.portfolio .portfolio-title {
+  letter-spacing: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url(../../img/parallax2.jpg);
-  height: 100vh;
+  height: 50vh;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
   background-size: 100% auto;
   background-attachment: fixed; }
-  .portfolio h2 {
-    margin: auto; }
+
+.workpart img {
+  width: 100%;
+  padding: 0.5rem; }
+.workpart a {
+  background-color: #f1f1f1;
+  padding: 1rem 1rem;
+  margin: 3rem; }
+
+.contact h2 {
+  letter-spacing: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../img/parallax3.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=style.css.map */
