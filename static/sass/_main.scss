@@ -1,0 +1,126 @@
+.firstpart-container {
+    padding: 3rem 0;
+    color: #7f7d7b;
+    .rowPart {
+        width: 50%;
+    }
+    img {
+        width: 90%;
+    }
+    p {
+        line-height: 1.8rem;
+    }
+    h6 {
+        padding: 1rem;
+    }
+    .graypart {
+        background-color: #f1f1f1;
+    }
+}
+.statbar-row {
+    background-color: #616161;
+    color: white;
+    padding: 1rem 0;
+    
+}
+.portfolio {
+    .portfolio-title {
+        letter-spacing: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../img/parallax2.jpg);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        background-attachment: fixed;    }
+}
+
+.workpart {
+    width: 50%;
+    color: #7f7d7b;
+    h2 {
+        margin: 3rem 0;
+    }
+    img {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    a {
+        background-color: #f1f1f1;
+        padding: 1rem 1rem;
+        margin: 3rem;
+    }
+    .pClass {
+        width: 80%;
+        margin:auto;
+        margin-bottom: 2rem;
+    }
+}
+
+.contact {
+    h2 {
+        letter-spacing: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../img/parallax3.jpg);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: 100% auto;
+        background-attachment: fixed;    }
+    }
+    .whereWork{
+    color: #7f7d7b;
+    .widthWhere {
+        width: 50%;
+
+    }
+    h2 {
+        margin-top: 3rem;
+    }
+    img {
+        width: 80%;
+    }
+    p{
+        line-height: 1rem;
+        &:nth-child(4){
+            font-size: 0.8rem;
+        }
+    }
+    input {
+        margin: 0.2rem 0;
+        border-radius: none;
+        padding: 0.5rem 0;
+    }
+    .btnSend {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 1023px){
+   .firstpart-container {
+       .rowPart {
+           width: 80%;
+       }
+   }
+   .workpart {
+       width: 80%;
+       .pClass {
+        width: 100%;
+        margin:auto;
+    }
+   }
+   .whereWork {
+       .widthWhere {
+
+           width: 80%;
+       }
+       text-align: center;
+       .btnSend {
+        text-align: center;
+    }
+   }
+}

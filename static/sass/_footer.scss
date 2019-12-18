@@ -1,0 +1,15 @@
+.footer {
+    background-color: #656565;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    i{
+        &:not(.up) {
+            margin: auto;
+            font-size: 1.5rem;
+
+        }
+        
+    }
+    
+}

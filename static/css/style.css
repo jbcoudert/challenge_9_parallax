@@ -5,16 +5,28 @@
   background-position: center;
   background-size: 100% auto;
   background-attachment: fixed; }
+  .header-container .colorNav {
+    color: #777675; }
+  .header-container a {
+    text-decoration: none;
+    color: #777675; }
+    .header-container a i {
+      margin-right: 0.2rem; }
   .header-container h1 {
     background-color: black;
     color: white;
-    width: 60%;
+    width: 30%;
     margin: auto;
-    padding: 1rem 0;
-    letter-spacing: 0.8rem; }
+    font-size: 1.4rem;
+    padding: 0.8rem 0;
+    letter-spacing: 0.6rem; }
 
+@media screen and (max-width: 1023px) {
+  .header-container h1 {
+    width: 50%; } }
 .firstpart-container {
-  padding: 3rem 0; }
+  padding: 3rem 0;
+  color: #7f7d7b; }
   .firstpart-container .rowPart {
     width: 50%; }
   .firstpart-container img {
@@ -43,13 +55,22 @@
   background-size: 100% auto;
   background-attachment: fixed; }
 
-.workpart img {
-  width: 100%;
-  padding: 0.5rem; }
-.workpart a {
-  background-color: #f1f1f1;
-  padding: 1rem 1rem;
-  margin: 3rem; }
+.workpart {
+  width: 50%;
+  color: #7f7d7b; }
+  .workpart h2 {
+    margin: 3rem 0; }
+  .workpart img {
+    width: 100%;
+    padding: 0.5rem; }
+  .workpart a {
+    background-color: #f1f1f1;
+    padding: 1rem 1rem;
+    margin: 3rem; }
+  .workpart .pClass {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem; }
 
 .contact h2 {
   letter-spacing: 0.8rem;
@@ -62,5 +83,55 @@
   background-position: center;
   background-size: 100% auto;
   background-attachment: fixed; }
+
+.whereWork {
+  color: #7f7d7b; }
+  .whereWork .widthWhere {
+    width: 50%; }
+  .whereWork h2 {
+    margin-top: 3rem; }
+  .whereWork img {
+    width: 80%; }
+  .whereWork p {
+    line-height: 1rem; }
+    .whereWork p:nth-child(4) {
+      font-size: 0.8rem; }
+  .whereWork input {
+    margin: 0.2rem 0;
+    border-radius: none;
+    padding: 0.5rem 0; }
+  .whereWork .btnSend {
+    text-align: right; }
+
+@media screen and (max-width: 1023px) {
+  .firstpart-container .rowPart {
+    width: 80%; }
+
+  .workpart {
+    width: 80%; }
+    .workpart .pClass {
+      width: 100%;
+      margin: auto; }
+
+  .whereWork {
+    text-align: center; }
+    .whereWork .widthWhere {
+      width: 80%; }
+    .whereWork .btnSend {
+      text-align: center; } }
+body {
+  font-family: 'Lato', sans-serif; }
+
+i:not(.cafe) {
+  margin-right: 1rem; }
+
+.footer {
+  background-color: #656565;
+  height: 30vh;
+  display: flex;
+  align-items: center; }
+  .footer i:not(.up) {
+    margin: auto;
+    font-size: 1.5rem; }
 
 /*# sourceMappingURL=style.css.map */

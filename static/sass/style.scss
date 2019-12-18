@@ -1,80 +1,12 @@
-.header-container {
-    height: 100vh;
-    background-image: url(../../img/parallax1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% auto;
-    background-attachment: fixed;
-    
-    h1 {
-        background-color: black;
-        color: white;
-        width: 60%;
-        margin: auto;
-        padding: 1rem 0;
-        letter-spacing: 0.8rem;
-    }
+@import "header";
+@import "main";
+body {
+    font-family: 'Lato', sans-serif;
 }
-.firstpart-container {
-    padding: 3rem 0;
-    .rowPart {
-        width: 50%;
-    }
-    img {
-        width: 90%;
-    }
-    p {
-        line-height: 1.8rem;
-    }
-    h6 {
-        padding: 1rem;
-    }
-    .graypart {
-        background-color: #f1f1f1;
-    }
-}
-.statbar-row {
-    background-color: #616161;
-    color: white;
-    padding: 1rem 0;
-    
-}
-.portfolio {
-    .portfolio-title {
-        letter-spacing: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: url(../../img/parallax2.jpg);
-        height: 50vh;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100% auto;
-        background-attachment: fixed;    }
-}
-
-.workpart {
-    img {
-        width: 100%;
-        padding: 0.5rem;
-    }
-    a {
-        background-color: #f1f1f1;
-        padding: 1rem 1rem;
-        margin: 3rem;
+i {
+    &:not(.cafe){
+        margin-right: 1rem;
     }
 }
 
-.contact {
-    h2 {
-        letter-spacing: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: url(../../img/parallax3.jpg);
-        height: 50vh;
-        background-repeat: no-repeat;
-        background-position: center ;
-        background-size: 100% auto;
-        background-attachment: fixed;    }
-}
+@import "footer";

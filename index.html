@@ -8,6 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
 
     <title>Hello, world!</title>
@@ -20,30 +22,28 @@
                 <!-- debut header -->
                 <div class="row no-gutters header-container">
                     <div class="col-12 navbar-container text-center">
-                        <nav class="navbar navbar-expand-md">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        <nav class="navbar navbar-expand-md" id="nav">
+                            <a class="navbar-brand" href="#">Home</a>
+                            <button class="navbar-toggler " type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <span><i class="fas fa-bars"></i></span>
                             </button>
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fas fa-user-alt"></i>ABOUT</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link" href="#"><i class="fas fa-th"></i>PORTFOLIO</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Dropdown</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                        <a class="nav-link" href="#"><i class="fas fa-envelope"></i>CONTACT</a>
                                     </li>
                                 </ul>
                                 <form class="form-inline my-2 my-lg-0">
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                    <i class="fas fa-search d-none d-md-inline"></i>
                                 </form>
                             </div>
                         </nav>
@@ -62,7 +62,7 @@
                         <div class="row no-gutters rowPart m-auto">
                             <div class="col-12 firstpart-title">
                                 <h2 class="text-center">ABOUT ME</h2>
-                                <p class="text-center">I love photography</p>
+                                <p class="text-center font-italic">I love photography</p>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus reprehenderit,
                                     libero laudantium magnam sapiente earum tempore, labore accusantium nihil enim quo.
                                     Optio odio illo non modi ab molestias adipisci, accusantium architecto iure
@@ -70,7 +70,7 @@
                                     suscipit odit unde corporis quam consequatur, veritatis perferendis.</p>
                             </div>
                             <div class="col-12 col-md-6 firstpart-img">
-                                <h3>icone + My Name</h3>
+                                <h5 class="text-center my-3 mr-5"><i class="fas fa-user-alt"></i>My Name</h5>
                                 <img src="img/avatar_hat.jpg" alt="...">
                             </div>
                             <div class="col-12 d-none d-md-inline col-md-6">
@@ -80,51 +80,48 @@
                                     delectus quasi exercitationem dolores ipsum nam blanditiis provident dignissimos sit
                                     consectetur quia! Corporis porro, dignissimos, voluptates voluptas dolorum dicta
                                     enim, officiis maxime animi quos hic atque recusandae assumenda eius! Fuga vero eius
-                                    velit, sapiente ab porro doloribus temporibus labore dolorem? Lorem ipsum dolor sit
-                                    amet consectetur, adipisicing elit. Quis aliquid, necessitatibus provident tempora
-                                    perferendis vero sunt deserunt dolore ab asperiores adipisci suscipit eligendi
-                                    placeat pariatur?</p>
+                                    velit, sapiente</p>
                             </div>
-                            <div class="col-12 text-center">
+                            <div class="col-12 text-center my-5">
                                 <p>Im really good at:</p>
                             </div>
                             <div class="col-12 statsbar">
                                 <div class="row">
                                     <div class="col-12">
-                                        <h6>icone + photogrpahy</h6>
+                                        <h6><i class="fas fa-camera"></i>Photography</h6>
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-11 bg-dark">
-                                                <p class="text-center text-white">90%</p>
+                                            <div class="bg-dark backDark1">
+                                                <p class="text-center text-white state1">90%</p>
                                             </div>
-                                            <div class="col-1 graypart">
+                                            <div class="graypart">
 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <h6>icone + Web Design</h6>
+                                        <h6><i class="fas fa-laptop"></i>Web Design</h6>
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-10 bg-dark">
-                                                <p class="text-center text-white">85%</p>
+                                            <div class="backDark2 bg-dark">
+                                                <p class="text-center text-white state2">85%</p>
                                             </div>
-                                            <div class="col-2 graypart">
+                                            <div class="graypart">
 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <h6>icone + Photoshop</h6>
+                                        <h6><i class="far fa-image"></i>Photoshop</h6>
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-9 bg-dark">
-                                                <p class="text-center text-white">75%</p>
+                                            <div class="backDark3 bg-dark">
+                                                <p class="text-center text-white state3">75%</p>
                                             </div>
-                                            <div class="col-3 graypart">
+                                            <div class="graypart">
 
                                             </div>
                                         </div>
@@ -162,10 +159,11 @@
                             </div>
                             <div class="col-12">
                                 <!-- part my work -->
-                                <div class="row no-gutters w-50 m-auto workpart">
-                                    <div class="col-12 text-center">
+                                <div class="row no-gutters m-auto workpart">
+                                    <div class="col-12 text-center ">
                                         <h2>MY WORK</h2>
-                                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellendus velit ab quis deserunt.</P>
+                                        <p class="font-italic pClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum
+                                            repellendus velit ab quis deserunt.</p>
                                     </div>
                                     <div class="col-12">
                                         <div class="row no-gutters">
@@ -194,25 +192,42 @@
                             <div class="col-12 contact">
                                 <h2 class="text-white">CONTACT</h2>
                             </div>
-                            <div class="col-12">
-                                <div class="row no-gutters">
-                                    <div class="col-12">
-                                        where work
+                            <div class="col-12 whereWork">
+                                <div class="row no-gutters m-auto widthWhere">
+                                    <div class="col-12 text-center my-5">
+                                        <h2 class="mb-4">WHERE I WORK</h2>
+                                        <p class="font-italic">I'd love your feedback!</p>
                                     </div>
                                     <div class="col-12 col-md-5">
-                                        img
+                                        <img src="img/map.jpg" alt="...">
                                     </div>
                                     <div class="col-12 col-md-7">
-                                        info
+                                        <p class="mt-4"><i class="fas fa-map-marker-alt"></i>Chicago US</p>
+                                        <p><i class="fas fa-phone-alt"></i>Phone +00 151515</p>
+                                        <p><i class="fas fa-envelope"></i>Email: mail@mail.com</p>
+                                        <p>Swing by for wake up <i class="fas fa-coffee cafe"></i> or leave me a note</p>
                                     </div>
                                     <div class="col-0 col-md-5">
-                                        vide
+
                                     </div>
                                     <div class="col-12 col-md-7">
-                                        form
+                                        <form action="." method="get">
+                                            <div class="row no-gutters">
+                                                <div class="col-12 col-md-6 pr-1">
+                                                    <input type="text" class="form-control" placeholder="Name">
+                                                </div>
+                                                <div class="col-12 col-md-6 pl-0">
+                                                    <input type="mail" class="form-control" placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="inputAddress"
+                                                    placeholder="Message">
+                                            </div>
+                                        </form>
                                     </div>
-                                    <div class="col-12">
-                                        btn droite
+                                    <div class="col-12 btnSend mb-5">
+                                        <a href="#" class="btn bg-dark text-white"><i class="far fa-paper-plane"></i>SEND MESSAGE</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,15 +239,20 @@
             </div>
             <div class="col-12">
                 <!-- debut footer -->
-                <div class="row no-gutters">
-                    <div class="col-12">
-
+                <div class="row no-gutters footer">
+                    <div class="col-12 text-center">
+                        <a href="#nav" class="btn bg-light"><i class="fas fa-arrow-up up"></i>To the top</a>
                     </div>
-                    <div class="col-12">
-
+                    <div class="col-12 iconeFooter text-center text-white">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-snapchat"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
                     </div>
-                    <div class="col-12">
-
+                    <div class="col-12 text-center text-white">
+                        <p>Powered by <a href="#" class="text-white">You</a></p>
                     </div>
                 </div>
                 <!-- fin footer -->
@@ -248,6 +268,7 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="static/js/script.js"></script>
 </body>
 
 </html>
